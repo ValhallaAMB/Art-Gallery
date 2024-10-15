@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: no-repeat center fixed;
+  background-size: cover;
+}
+
+.row {
+  background-color: #fffdfb;
+}
+
+#togglePassword:hover {
+  color: #d48166; /* Change the color of the span when hovered */
+}
+
+.btn-color,
+.form-range::-webkit-slider-thumb {
+  background-color: #d48166;
+  color: #fffdfb;
+}
+
+.btn-color:hover,
+.btn-outline-color:hover {
+  background-color: #c77a61;
+  color: #fffdfb;
+}
+
+.btn-outline-color {
+  border-color: #d48166;
+  color: #d48166;
+}
+
+.btn-color-secondary {
+  background-color: #829e90;
+  color: #fffdfb;
+}
+
+.btn-outline-color-secondary {
+  border-color: #829e90;
+  color: #829e90;
+}
+
+.btn-color-secondary:hover,
+.btn-outline-color-secondary:hover {
+  background-color: #789284;
+  color: #fffdfb;
+}
